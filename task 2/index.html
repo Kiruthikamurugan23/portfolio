@@ -19,7 +19,7 @@
         <div class="split left">
             <h1>Student registration form</h1>
             <br><br>
-            <form>
+            <form id="myform">
 
                 <div class=" row row-container">
                     <div class="col-3">
@@ -49,19 +49,20 @@
                 </div>
                 <div class=" row row-container">
                     <div class="col-3">
-                        <label for="phoneno"><b>Mobile number:</b></label><br>
+                        <label for="mobileno"><b>Mobile number:</b></label><br>
                     </div>
                     <div class="col-7">
-                        <input type="text" id="phoneno" name="phoneno" id="phoneno" class="box1"><br><br>
+                        <input type="text" id="mobileno" name="mobileno" id="mobileno" class="box1"><br><br>
                     </div>
                 </div>
-                <p><b>Choose your gender:</p>
-
-
-                  <input type="radio" id="male" name="male" value="male" class="box1">
-                  <label for="male">male</label><br>
-                  <input type="radio" id="female" name="female" value="female">
-                  <label for="female">female</label><br><br></b>
+                <div class=" row row-container">
+                    <div class="col-3">
+                        <label for="city"><b>city:</b></label><br>
+                    </div>
+                    <div class="col-7">
+                        <input type="text" id="city" name="city" id="city" class="box1"><br><br>
+                    </div>
+                </div>
 
                 <br><input type="submit" value="Submit" class="box1">
 
@@ -69,8 +70,25 @@
     </div>
     <div class="split right">
         <img src="reg.jpeg">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Form Data:</h2>
+                    <p><b>First Name:</b> <span id="fname-r8"></span></p>
+                    <p><b>Last Name:</b> <span id="lname-r8"></span></p>
+                    <p><b>Email ID:</b> <span id="email-r8"></span></p>
+                    <p><b>Mobile Number:</b> <span id="mobile-r8"></span></p>
+                    <p><b>City:</b> <span id="city-r8"></span></p>
+                </div>
+            </div>
+        </div>
+    
+        <script src="tom.js"></script>
+    </body>
+    
     </div>
+    <script src="tom.js"></script>
 
 </body>
 
-</html>
+</html>              
