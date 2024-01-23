@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    
+    line-height: 20px;
     
 }
 h2{
@@ -11,19 +11,20 @@ h4{
     text-align: left;
     color: brown;
     text-size-adjust:40px;
+    text-decoration-color:  rgb(215, 151, 200);
+    text-decoration-line: underline;
 }
 P{
     align-content: baseline;
 }
-td{
-    text-align: center;
-}
+
 
 table{
     
     width: 500px;
     height: 200px;
-    background-color: bisque;
+    background-color: rgb(215, 151, 200);
+    text-align: center;
     
 }
 .container{
@@ -34,6 +35,8 @@ table{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+    color: blueviolet;
+    background-color: rgb(246, 203, 211);
     
 }
 div{
@@ -45,9 +48,15 @@ ul{
 }
 img{
     height: 150px;
-    padding-left: 520px;
+    
     
 }
-h1{
-    color: crimson;
+
+.jumbotron{
+    background-color: rgb(220, 195, 220);
+    display:flex;
+    justify-content: space-between;
+}
+li{
+    padding-left: 50px;
 }
