@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    
+    
+}
+h2{
+    text-align: center;
+    
+}
+h4{
+    text-align: left;
+    color: brown;
+    text-size-adjust:40px;
+}
+P{
+    align-content: baseline;
+}
+td{
+    text-align: center;
+}
+
+table{
+    
+    width: 500px;
+    height: 200px;
+    background-color: bisque;
+    
+}
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.gh{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+div{
+    
+}
+ul{
+    color: blueviolet;
+    text-decoration:solid;
+}
+img{
+    height: 150px;
+    padding-left: 520px;
+    
+}
+h1{
+    color: crimson;
+}
